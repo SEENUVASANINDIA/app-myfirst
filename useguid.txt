@@ -1,0 +1,26 @@
+sudo apt update 
+sudo apt upgrade
+
+sudo apt install nodejs
+sudo apt install npm
+
+nodejs -v 
+npm -v
+
+if nodejs version < 16
+
+{
+npm cache clean -f
+sudo npm install -gn
+sudo n stable
+}
+
+for create project 
+
+npx create-react-app <app name>
+
+for run app 
+
+go inside project folder and 
+
+npm start
